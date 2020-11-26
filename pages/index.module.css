@@ -16,8 +16,20 @@
   align-items: center;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
+.logo {
+  position: relative;
+}
+
+.logoImage {
+  width: 300px;
+  border-radius: 50%;
+  filter: contrast(20%) brightness(160%);
+}
+
+.logoText {
   font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }

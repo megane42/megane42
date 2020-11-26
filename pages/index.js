@@ -11,9 +11,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          @megane42
-        </h1>
+        <div className={styles.logo}>
+          <img className={styles.logoImage} src="/portrait.jpg" />
+          <h1 className={styles.logoText}>@megane42</h1>
+        </div>
       </main>
 
       <Footer />
