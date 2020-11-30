@@ -1,11 +1,12 @@
 :root {
-  --text-color: #1F1F1F
+  --text-color:       #1F1F1F;
+  --background-color: #FFFDFA;
 }
 
 html,
 body {
-  color: var(--text-color);
-  background-color: #FFFDFA;
+  color:            var(--text-color);
+  background-color: var(--background-color);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
