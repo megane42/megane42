@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
-
 .container {
+  width: 100%;
+  max-width: 1200px;
   min-height: 100vh;
+  margin: 0 auto;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .main {
+  align-items: center;
   padding: 5rem 0;
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;

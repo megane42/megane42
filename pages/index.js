@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/header'
 import Footer from '../components/footer'
 import styles from './index.module.css'
 
@@ -9,6 +10,8 @@ export default function Home() {
         <title>megane42</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header />
 
       <main className={styles.main}>
         <div className={styles.logo}>
