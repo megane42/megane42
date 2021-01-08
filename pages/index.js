@@ -14,10 +14,7 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-        <div className={styles.logo}>
-          <img className={styles.logoImage} src="/portrait.jpg" />
-          <h1 className={styles.logoText}>@megane42</h1>
-        </div>
+        <h1 className={styles.logoText}>@megane42</h1>
       </main>
 
       <Footer />

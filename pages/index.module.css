@@ -19,16 +19,6 @@
   align-items: center;
 }
 
-.logo {
-  position: relative;
-}
-
-.logoImage {
-  width: 300px;
-  border-radius: 50%;
-  filter: contrast(20%) brightness(160%);
-}
-
 .logoText {
   font-size: 6rem;
   position: absolute;
