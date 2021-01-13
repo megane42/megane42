@@ -16,26 +16,25 @@ export default function Index() {
         <div className={styles.logo}>
           <img className={styles.logoImage} src="/portrait.jpg" />
           <h1 className={styles.logoText}>@megane42</h1>
-
-          <nav>
-            <ul className={styles.nav}>
-              <li>
-                <Link href="/about">
-                  <a>about</a>
-                </Link>
-              </li>
-              <li>
-                /
-              </li>
-              <li>
-                <Link href="/blog">
-                  <a>blog</a>
-                </Link>
-              </li>
-            </ul>
-          </nav>
-
         </div>
+
+        <nav>
+          <ul className={styles.nav}>
+            <li>
+              <Link href="/about">
+                <a>about</a>
+              </Link>
+            </li>
+            <li>
+              /
+            </li>
+            <li>
+              <Link href="/blog">
+                <a>blog</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </main>
 
       <Footer />
