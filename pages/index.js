@@ -12,29 +12,13 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
+
       <main className={styles.main}>
         <div className={styles.logo}>
           <img className={styles.logoImage} src="/portrait.jpg" />
           <h1 className={styles.logoText}>@megane42</h1>
         </div>
-
-        <nav>
-          <ul className={styles.nav}>
-            <li>
-              <Link href="/about">
-                <a>about</a>
-              </Link>
-            </li>
-            <li>
-              /
-            </li>
-            <li>
-              <Link href="/blog">
-                <a>blog</a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
       </main>
 
       <Footer />

@@ -20,6 +20,7 @@
 
 .logo {
   position: relative;
+  margin-top: -100px;
 }
 
 .logoImage {
@@ -35,21 +36,4 @@
   left: 50%;
   transform: translate(-50%,-50%);
   font-family: "Carter One", sans-serif;
-}
-
-.nav {
-  display: flex;
-  flex-direction: row;
-}
-
-.nav li {
-    margin: 0 12px;
-    font-size: 2.5rem;
-    font-family: "Carter One", sans-serif;
-    list-style:none;
-}
-
-.nav a {
-    text-decoration: none;
-    color: var(--text-color)
 }
