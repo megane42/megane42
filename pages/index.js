@@ -3,7 +3,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import styles from './index.module.css'
 
-export default function Home() {
+export default function Index() {
   return (
     <div className={styles.container}>
       <Head>
