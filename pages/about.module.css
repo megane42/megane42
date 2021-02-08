@@ -10,7 +10,7 @@
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 5rem 1rem;
   display: flex;
   flex: 1;
   flex-direction: column;
