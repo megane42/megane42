@@ -10,13 +10,25 @@
 }
 
 .main {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
 }
 
-.profileList {
-    margin-left: 16px;
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 250px;
+  margin-bottom: 3rem;
+}
+
+.list {
+  margin-left: 16px;
 }
